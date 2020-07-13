@@ -10,4 +10,4 @@ generatePackage.sh:将所依赖的so打包
 
 tail.py:类似linux下的tail -f命令。使用规则tail.py 10 filename
 
-
+monitor_shell: 监控服务是否存在，并输出异常日志，微信通知
