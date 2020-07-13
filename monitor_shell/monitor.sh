@@ -35,8 +35,8 @@ rawurldecode() {
 
 dump=false
 title='dm_news服务异常'
-check_results=`ps aux | grep dm_news | wc -l`
-if [[ $check_results != 2 ]]
+check_results=`ps aux | grep python3 | grep dm_news | wc -l`
+if [[ $check_results != 1 ]]
 then
     dump=true
     title="dm_news服务挂掉了"
